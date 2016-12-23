@@ -24,9 +24,7 @@ RUN \
     apt-get update && \
     apt-get install --no-install-recommends -y \
       software-properties-common \
-      sudo \
-      unzip \
-      wget \
+      sudo unzip wget hping3 perl liblwp-protocol-https-perl libjson-perl libgetopt-long-descriptive-perl \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Oracle Java
