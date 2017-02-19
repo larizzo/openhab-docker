@@ -1,4 +1,4 @@
-FROM openhab/openhab-2.1.0-snapshot-amd64
+FROM openhab/openhab:2.1.0-snapshot-amd64
 
 # Install Addon Packages
 
